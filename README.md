@@ -12,7 +12,7 @@ Training on Undersampled Data: The model is trained on the undersampled dataset,
 3. Model Evaluation:
 Prediction on Testing Data: The trained model is used to make predictions on the testing data, which was held back during training to evaluate the model's performance on unseen data.
 Accuracy Measurement: The accuracy score is calculated to assess the model's overall performance. This metric measures the proportion of correct predictions out of the total predictions.
-4. Addressing Class Imbalance (Optional):
+4. Addressing Class Imbalance :
 SMOTE: The code also explores the use of SMOTE (Synthetic Minority Over-sampling Technique) as an alternative to undersampling. SMOTE generates synthetic data points for the minority class (fraudulent transactions) to balance the class distribution. This can help improve the model's performance in cases where undersampling might not be sufficient.
 
 DATASET LINK : https://drive.google.com/file/d/1PGJgjmGAfR-uan792TSD_RUAEYw2T63z/view?usp=drive_link
